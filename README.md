@@ -5,7 +5,6 @@ This project was done as a graduation project from the AWS Re/Start program, gov
 
 The project is a simple architecture of services combined together to create a working application that returns a string of text if all the layers are connected properly. The concepts of the Well-Architected Framework were preserved throughout the project, to the best of our ability, despite its simplicity:
 
-* Availability was maintained through the usage of multiple AZs and instances along with a load balancer. 
 * Operational Excellence was offered through automation of the deployment process through CloudFormation. 
 * Reliability was ensured through failover routing and cross region replicas using Route53, as well as the usage of multiple AZs and instances along with a load balancer. 
 * Security was maintained through the usage of proper IAM roles and permissions as well as the isolation of the data and application layers in private subnets as well as the utilization of security groups and NACL     to limit inbound network traffic at the instance and subnet levels respectively. 
